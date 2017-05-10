@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HyLeftViewController.h
 //  侧滑菜单
 //
 //  Created by tongfang on 2017/5/9.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface HyLeftViewController : UIViewController
 
 @end
-

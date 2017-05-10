@@ -9,10 +9,12 @@
 /* Begin PBXBuildFile section */
 		C69128D71EC19F40005506F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C69128D61EC19F40005506F0 /* main.m */; };
 		C69128DA1EC19F40005506F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C69128D91EC19F40005506F0 /* AppDelegate.m */; };
-		C69128DD1EC19F40005506F0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C69128DC1EC19F40005506F0 /* ViewController.m */; };
 		C69128E01EC19F40005506F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C69128DE1EC19F40005506F0 /* Main.storyboard */; };
 		C69128E21EC19F40005506F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C69128E11EC19F40005506F0 /* Assets.xcassets */; };
 		C69128E51EC19F40005506F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C69128E31EC19F40005506F0 /* LaunchScreen.storyboard */; };
+		C69128EE1EC1A028005506F0 /* HySideController.m in Sources */ = {isa = PBXBuildFile; fileRef = C69128ED1EC1A028005506F0 /* HySideController.m */; };
+		C69128F11EC1C2D5005506F0 /* HyCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C69128F01EC1C2D5005506F0 /* HyCenterViewController.m */; };
+		C69128F41EC1C2E5005506F0 /* HyLeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C69128F31EC1C2E5005506F0 /* HyLeftViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +22,16 @@
 		C69128D61EC19F40005506F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C69128D81EC19F40005506F0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C69128D91EC19F40005506F0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C69128DB1EC19F40005506F0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C69128DC1EC19F40005506F0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C69128DF1EC19F40005506F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C69128E11EC19F40005506F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C69128E41EC19F40005506F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C69128E61EC19F40005506F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C69128EC1EC1A028005506F0 /* HySideController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HySideController.h; sourceTree = "<group>"; };
+		C69128ED1EC1A028005506F0 /* HySideController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HySideController.m; sourceTree = "<group>"; };
+		C69128EF1EC1C2D5005506F0 /* HyCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HyCenterViewController.h; sourceTree = "<group>"; };
+		C69128F01EC1C2D5005506F0 /* HyCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HyCenterViewController.m; sourceTree = "<group>"; };
+		C69128F21EC1C2E5005506F0 /* HyLeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HyLeftViewController.h; sourceTree = "<group>"; };
+		C69128F31EC1C2E5005506F0 /* HyLeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HyLeftViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +66,12 @@
 			children = (
 				C69128D81EC19F40005506F0 /* AppDelegate.h */,
 				C69128D91EC19F40005506F0 /* AppDelegate.m */,
-				C69128DB1EC19F40005506F0 /* ViewController.h */,
-				C69128DC1EC19F40005506F0 /* ViewController.m */,
+				C69128EC1EC1A028005506F0 /* HySideController.h */,
+				C69128ED1EC1A028005506F0 /* HySideController.m */,
+				C69128EF1EC1C2D5005506F0 /* HyCenterViewController.h */,
+				C69128F01EC1C2D5005506F0 /* HyCenterViewController.m */,
+				C69128F21EC1C2E5005506F0 /* HyLeftViewController.h */,
+				C69128F31EC1C2E5005506F0 /* HyLeftViewController.m */,
 				C69128DE1EC19F40005506F0 /* Main.storyboard */,
 				C69128E11EC19F40005506F0 /* Assets.xcassets */,
 				C69128E31EC19F40005506F0 /* LaunchScreen.storyboard */,
@@ -150,9 +160,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C69128DD1EC19F40005506F0 /* ViewController.m in Sources */,
+				C69128F11EC1C2D5005506F0 /* HyCenterViewController.m in Sources */,
 				C69128DA1EC19F40005506F0 /* AppDelegate.m in Sources */,
 				C69128D71EC19F40005506F0 /* main.m in Sources */,
+				C69128EE1EC1A028005506F0 /* HySideController.m in Sources */,
+				C69128F41EC1C2E5005506F0 /* HyLeftViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,7 +7,9 @@
 //
 
 #import "AppDelegate.h"
-
+#import "HySideController.h"
+#import "HyCenterViewController.h"
+#import "HyLeftViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +18,17 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    HyCenterViewController *centerController = [[HyCenterViewController alloc] init];
+    UINavigationController *centerNavController = [[UINavigationController alloc] initWithRootViewController:centerController];
+    HyLeftViewController *leftController = [[HyLeftViewController alloc] init];
+    UINavigationController *leftNavController = [[UINavigationController alloc] initWithRootViewController:leftController];
+    HySideController *sideController = [[HySideController alloc] initWithCenterController:centerNavController leftController:leftNavController];
+    self.window.rootViewController = sideController;
+    
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
